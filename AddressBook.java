@@ -34,6 +34,9 @@ public class AddressBook extends AddressBookManager {
                 case 3:
                     addressBook.saveData(key, arrayList);
                     break;
+                case 4:
+                    addressBook.editPerson(fileName);
+                    break;
                 default:
                     System.out.println("Please enter correct choice");
 
@@ -41,5 +44,4 @@ public class AddressBook extends AddressBookManager {
         }
     }
 }
-
 
